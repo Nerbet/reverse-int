@@ -1,9 +1,12 @@
-module.exports = function reverse (n) {
+ module.exports = function reverse (n) {
     var result = 0;
     var digits = [];
     var a;
     var k =1;
-    
+    if(n<0)
+    {
+        n = -n;
+    }
      while(n != 0)
     {
         a = n%10;
