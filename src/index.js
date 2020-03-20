@@ -19,4 +19,5 @@ for(var i =0; i<digits.length; i++)
    result = result + digits[i]*k;
    k=1;
 }
+return result;
 }
